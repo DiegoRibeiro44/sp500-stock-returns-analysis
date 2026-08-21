@@ -1,0 +1,26 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Saidas geradas (mantem as pastas, ignora o conteudo gerado)
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Dados externos (baixados localmente)
+data/external/**
+!data/external/**/
+!data/external/**/.gitkeep
